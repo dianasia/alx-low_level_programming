@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
- * main -  a program that prints numbers using putchar
+ * main - Prints numbers between 0 to 9.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char i;
+	int i;
 
-	for (i = 'z'; i >= 'a'; i--)
+	for (i = 48; i < 58; i++)
 	{
-		putchar(ch + '0');
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
