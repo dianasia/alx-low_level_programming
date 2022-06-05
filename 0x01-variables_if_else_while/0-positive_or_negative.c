@@ -7,10 +7,10 @@
  *
  * Return: Always 0 (success)
  */
-int main (void)
+int main(void)
 {
-	int n,	    
-	srand(time(0));
+	int n,
+	    srand(time (0));
 	n = rand() -Rand_Max / 2;
 	if (n > 0)
 	{
