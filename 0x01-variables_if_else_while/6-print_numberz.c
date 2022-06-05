@@ -1,9 +1,7 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
 
 /**
- * main - Prints the lowercase alphabet in reverse.
+ * main -  a program that prints numbers using putchar
  *
  * Return: Always 0 (Success)
  */
