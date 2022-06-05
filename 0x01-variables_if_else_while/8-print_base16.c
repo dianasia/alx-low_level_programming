@@ -4,7 +4,7 @@
 
 /**
  * main - a program that print letters and numbers using putchar
- * 
+ *
  * Return: return 0
  */
 int main(void)
@@ -18,10 +18,8 @@ int main(void)
 	}
 	for (ch = 'a'; ch <= 'f'; ch++)
 	{
-		putchar('\n');
+		putchar(ch);
 	}
+	putchar('\n');
 	return (0);
 }
-
-
-
