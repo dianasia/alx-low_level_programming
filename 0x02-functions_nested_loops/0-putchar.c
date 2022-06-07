@@ -1,21 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
-#include <string.h>
 
 /**
- * main - prints holberton
+ * main - Entry point
  *
- * Return: Always (0)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c[] = "_putchar";
-	int length, i;
-
-	length = strlen(c);
-	for (i = 0; i < length; i++)
-	{
-		_putchar(c[i]);
-	}
-	_putchar('\n');
+	printf("_putchar\n");
 	return (0);
 }
