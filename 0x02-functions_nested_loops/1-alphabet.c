@@ -1,19 +1,25 @@
 #include "main .h"
+#include <stdbool.h>
 
 /**
  * print_alphabet - prints the english alphabet from a-z.
  *
  * Return: Always 0.
  */
-int main(void)
+ void print_alphabet(void)
 {
-	print_alphabet();
-	char c;
+	int i = 97;
+	bool a = true;
 
-	for (c = 'a'; c <= 'z'; c++)
+	while (a)
 	{
-		_putchar(c);
+		_putchar(i);
+	
+	if (i == 122)
+	{
+		a = false;
+	}
+	i++;
 	}
 	_putchar('\n');
-	return (0);
 }
