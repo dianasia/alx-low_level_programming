@@ -1,24 +1,28 @@
 #include "main.h"
-#include <string.h>
 
-/*
- * main - prints holberton
+/**
+ * main - This program  prints _putchar followed by a newline
  *
- * Return: Always 0 (Success)
+ * Return: 0
+ *
  */
+
 int main(void)
 {
-	char c[] = "_putchar";
-	int length, i;
+	char putch[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 
-	length = strlen(c);
+	unsigned int c;
 
-	for (i = 0; i < length; i++)
+
+	for (c = 0; c < sizeof(putch); c++)
 	{
-		_putchar(c[i]);
+
+		_putchar(putch[c]);
+
 	}
 
 	_putchar('\n');
 
 	return (0);
 }
+
