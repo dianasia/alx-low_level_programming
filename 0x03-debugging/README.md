@@ -1,1 +1,1 @@
-learn debugging
+debugging
