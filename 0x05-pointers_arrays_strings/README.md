@@ -1,2 +1,2 @@
-Commit pointers
+Commit pointer
 
