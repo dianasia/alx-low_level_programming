@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * create an array
+ * create_array - Entry point
  * @size: size of the array
  * @c: charater
  * return: a pointer to the array, or NULL if it fails
