@@ -5,7 +5,7 @@
 /**
 * _isNum - check if is a number
 *@num: string to check
-*Return: 1 is numm, 0 not num
+*Return: 1 is num, 0 not num
 */
 int _isNum(char *num)
 {
@@ -20,7 +20,7 @@ int _isNum(char *num)
 }
 
 /**
-* *_memset - copies a character to the firstn characters of the string pointed
+*_memset - copies a character to the first characters of the string pointed
 *@s: original string
 *@b: value to remplace
 *@n: number of bytes
@@ -36,7 +36,7 @@ char *_memset(char *s, char b, unsigned int n)
 }
 
 /**
-* _strlen - returns the lenght of a string
+*_strlen - returns the lenght of a string
 *@s: poiter of character
 *Return: the length of a string
 */
