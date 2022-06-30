@@ -3,11 +3,11 @@
 #include <stdlib.h>
 #include <string.h>
 /**
-*Num - check if is a number
+*_Num - check if is a number
 *@num: string to check
 *Return: 1 is num, 0 not num
 */
-int Num(char *num)
+int _Num(char *num)
 {
 	int i;
 
@@ -20,13 +20,13 @@ int Num(char *num)
 }
 
 /**
-*memset - copies a character to the first characters of the string pointed
+*_memset - copies a character to the first characters of the string pointed
 *@s: original string
 *@b: value to remplace
 *@n: number of bytes
 *Return: s (string modify)
 */
-char *memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
@@ -36,11 +36,11 @@ char *memset(char *s, char b, unsigned int n)
 }
 
 /**
-*strlen - returns the length of a string
+*_strlen - returns the length of a string
 *@s: poiter of character
 *Return: the length of a string
 */
-int strlen(char *s)
+int _strlen(char *s)
 {
 	int len;
 
