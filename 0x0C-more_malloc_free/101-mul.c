@@ -3,11 +3,11 @@
 #include <stdlib.h>
 #include <string.h>
 /**
-* _isNum - check if is a number
+*Num - check if is a number
 *@num: string to check
 *Return: 1 is num, 0 not num
 */
-int _isNum(char *num)
+int Num(char *num)
 {
 	int i;
 
@@ -20,13 +20,13 @@ int _isNum(char *num)
 }
 
 /**
-*_memset - copies a character to the first characters of the string pointed
+*memset - copies a character to the first characters of the string pointed
 *@s: original string
 *@b: value to remplace
 *@n: number of bytes
 *Return: s (string modify)
 */
-char *_memset(char *s, char b, unsigned int n)
+char *memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
@@ -36,11 +36,11 @@ char *_memset(char *s, char b, unsigned int n)
 }
 
 /**
-*_strlen - returns the lenght of a string
+*strlen - returns the length of a string
 *@s: poiter of character
 *Return: the length of a string
 */
-int _strlen(char *s)
+int strlen(char *s)
 {
 	int len;
 
@@ -51,7 +51,7 @@ int _strlen(char *s)
 }
 
 /**
-* main - multiple 2 positive numbers
+*main - multiple 2 positive numbers
 *@argc: argument counter
 *@argv: number to multiply
 *Return: 0 (success)
